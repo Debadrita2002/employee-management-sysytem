@@ -7,8 +7,8 @@ const NewTask = ({data}) => {
             <h3 className='col1'>{data.category}</h3>
             <h4 className='col2'>{data.taskDate}</h4>
             </div>
-            <h2 className='lekha'>{data.taskTitle}</h2>
-            <p className='para'>{data.taskDescription}</p>
+            <h2 className='lekha'>{data.title}</h2>
+            <p className='para'>{data.description}</p>
             <div className='accept'>
                 <button className='ab11'>Accept Task</button>
             </div>

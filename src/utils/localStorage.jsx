@@ -1,3 +1,4 @@
+//local storage stored here
 localStorage.clear()
 const employees = [
     {
